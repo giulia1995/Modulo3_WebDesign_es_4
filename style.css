@@ -50,8 +50,11 @@ h3{
     box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.88);
 }
 .card{
-    background-color: #43889D !important;
-    
+    background-color: #43889D !important;   
+}
+.card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
 .card-text{
     color: white !important;
@@ -83,11 +86,20 @@ footer{
     align-items: center;
 }
 footer h5{
-    color: #FECF02 !important;
+   color: #FECF02 !important;
    margin: 50px;
+   font-weight: bolder;
     
 }
-button{
+.btn{
+    margin-right: 40px;
     max-width:100px;
     max-height: 50px;
+    background-color: #FECF02 !important;
+    color: #43889D !important;
+    border-color:#FECF02 !important;
+}
+.btn:hover{
+    background-color: white !important;
+    border-color: white !important;
 }
