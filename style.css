@@ -1,9 +1,93 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FECF02;
+    color:#43889D !important;
+}
+.offertesettimana {
+    
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+.navbar{
+    background-color: #43889D !important;
+}
+.nav-link{
+    color: #FECF02 !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
 .navbar-brand img{
-    width: 100px !important;
-
+    width: 120px !important;
 }
 .jumbotron{
-    margin-top: 20px !important;
-    height: 30vh !important;
-    text-align: center;
+    margin-top: 50px !important;
+    height: 50vh !important;
+    text-align: justify;
+    background-image:url('./jumbotron.png');   
+}
+h1{
+    font-weight: bold !important;
+    margin-top: 150px !important;
+    padding-left: 50px;
+}
+h4{
+    padding-left: 50px;
+}
+h3{
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+}
+.carousel-caption{
+    background-color: #43889D !important;
+    font-weight: bold !important;
+    border-radius: 20px !important;
+}
+.welcomesummer .card{
+    -webkit-box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.88); 
+    box-shadow: 5px 5px 23px 5px rgba(0,0,0,0.88);
+}
+.card{
+    background-color: #43889D !important;
+    
+}
+.card-text{
+    color: white !important;
+}
+.card-title{
+    color:#FECF02 !important;
+    font-weight: bold;
+}
+.card p{
+    color: white !important;
+}
+.card a{
+    color: #FECF02 !important;
+    text-decoration: none !important;
+}
+.card a:hover{
+    color: white !important;
+}
+.card small{
+    color: #FECF02 !important;
+}
+h5{
+    color: white !important;
+}
+footer{
+    background-color:#43889D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h5{
+    color: #FECF02 !important;
+   margin: 50px;
+    
+}
+button{
+    max-width:100px;
+    max-height: 50px;
 }
