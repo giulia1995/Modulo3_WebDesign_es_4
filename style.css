@@ -21,6 +21,10 @@ body{
 .navbar-brand img{
     width: 120px !important;
 }
+.nav-item{
+    margin-top: 55px !important;
+}
+
 .jumbotron{
     margin-top: 50px !important;
     height: 50vh !important;
