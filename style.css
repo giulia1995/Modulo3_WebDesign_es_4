@@ -1,0 +1,9 @@
+.navbar-brand img{
+    width: 100px !important;
+
+}
+.jumbotron{
+    margin-top: 20px !important;
+    height: 30vh !important;
+    text-align: center;
+}
